@@ -3,10 +3,10 @@ class CLI
 
   def initialize
     puts "Welcome to our pokedex"
-    puts "What would you like to do?"
   end
 
   def call
+    puts "What would you like to do?"
     Pokemon.scrape_pokemon
     display_menu
   end
